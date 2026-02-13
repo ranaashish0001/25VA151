@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Course Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f4f6f8;
+    }
+
+    header {
+        background: linear-gradient(90deg, #2563eb, #1e40af);
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 30px auto;
+        padding: 20px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .video-section {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    iframe {
+        width: 100%;
+        max-width: 700px;
+        height: 400px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .modules h2 {
+        color: #1e40af;
+    }
+
+    .modules ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .modules li {
+        background: #eef2ff;
+        margin: 10px 0;
+        padding: 12px 15px;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .modules li:hover {
+        background: #c7d2fe;
+        transform: translateX(5px);
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+        background: #1e40af;
+        color: white;
+        margin-top: 30px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Web Development Course</h1>
+    <p>Learn HTML, CSS, and JavaScript from scratch</p>
+</header>
+
+<div class="container">
+
+    <div class="video-section">
+        <h2>Course Introduction</h2>
+        <!-- Replace VIDEO_ID with your YouTube video ID -->
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+    </div>
+
+    <div class="modules">
+        <h2>Course Modules</h2>
+        <ul>
+            <li>Module 1: Introduction to Web Development</li>
+            <li>Module 2: HTML Fundamentals</li>
+            <li>Module 3: CSS Styling and Layout</li>
+            <li>Module 4: Responsive Design</li>
+            <li>Module 5: JavaScript Basics</li>
+            <li>Module 6: Final Project</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Online Learning Platform</p>
+</footer>
+
+</body>
+</html>
